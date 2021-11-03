@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #2cc40e;
+    margin: 0;
+}
+
+header .conteiner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    padding-top: 30px;
+    width: 100%;
+    height: 100px;
+}
+
+header .conteiner #bm,
+header .conteiner #principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+    width: 80%;
+    margin-left: 13%;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+header .conteiner #bm a,
+header .conteiner #principal a {
+    text-decoration: none;
+}
+
+header .conteiner #principal {
+    font-size: 50px;
+}
+
+header .conteiner #bm p,
+header .conteiner #login p,
+header .conteiner #principal p{
+    width: 100%;
+    color: #000;
+    margin: 0 10px 0 10px;
+    font-family: 'Rampart One', cursive;
+}
+
+header .conteiner #login {
+    display: flex;
+    align-items: center;
+    
+    font-size: 18px;
+    font-weight: 700;
+    
+    margin-right: 10px;
+    cursor: pointer;
+    border: solid 5px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+header #menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 100%;
+    margin-top: 20px;
+}
+
+header #menu .botoes{
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0D5912;
+    background-color: #2cc40e;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Rampart One', cursive;
+}
+
+header #menu .botoes:hover{
+border-color: #000;
+}
+
+#fotos{
+    display: block;
+}
+main #banner{
+    width: 98%;
+    margin: auto;
+    padding: 20px 0 20px 0;
+    height: 200px;
+}
+
+main #banner p {
+    margin-left: 5%;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #323232;
+    font-weight: 700;
+    text-align: center;
+}
+.imagens{
+    height: 600px;
+}
+#footer{
+    margin-top: 30% ;
+    position: relative;
+    background: #22910c;
+    height: 200px;
+   
+}
+main #conteudo {
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+main #conteudo #titulo {
+    font-size: 24px;
+    color: #323232;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+main #conteudo #selecao {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+main #conteudo #selecao .card{
+    width: 30%;
+    height: 160px;
+    border: solid 5px #146ee4;
+    border-radius: 10px;
+    margin: 5px 5px;
+    cursor: pointer;
+    transition: 0.5;
+    background-color: #146ee4;
+}
+
+main #conteudo #selecao :hover{
+    border-color: #0711a0;
+}
+
+main #conteudo #selecao .card p{
+    width: 100%;
+    color: #000;
+    margin: 0 10px 0 10px;
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 800;
+    text-align: center;
+    font-size: 100px;
+}
+
+.logosmarcas{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+main #conteudo #produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+main #conteudo #produto .card {
+    width: 99.50%;
+    border: solid 2px #323232;
+    margin: 5px 5px;
+    border-radius: 5px;
+    height: 200px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main #conteudo #produto .card .tenis {
+    width: 250px;
+    height: 100%;
+    
+}
+
+main #conteudo #produto .card .tenis img {
+    width: 80%;
+    height: 90%;
+
+}
+
+main #conteudo #produto .card .item {
+    margin: 0 5px 0 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+main #conteudo #produto .card .item p {
+    color: #323232;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+main #conteudo #produto .card .item .descricao {
+    font-weight: 400;
+}
+
+main #conteudo #produto .card .valor-qtd {
+    margin: auto 10px;
+}
+main #conteudo #produto .card .valor-qtd .valor {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+main #conteudo #produto .card .valor-qtd .comprar {
+    background-color: #2cc40e;
+    width: 100px;
+    height: 40px;
+    border: 10px;
+    border-color: #2cc40e;
+}
